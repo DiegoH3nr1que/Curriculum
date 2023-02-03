@@ -1,0 +1,168 @@
+body{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(158, 186, 186);
+}
+.currículo{
+    width: 70%;
+    height: 100%;
+    gap: 100px;
+    
+}
+.cabeçalho{
+    width: 100%;
+    height: auto;
+   display:flex;
+   padding-left: 10px;
+   padding-right: 0px;
+   
+}
+.nome{
+    width: 100%;
+    height: auto;
+    padding-inline-start: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.perfil p{
+    background-color:darkgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.perfil{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formação p{
+    background-color: darkgray;
+    font-family:Georgia, 'Times New Roman', Times, serif ;  
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;  
+}
+
+.formação{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.Cursos p{
+    background-color: darkgray;
+    font-family:Georgia, 'Times New Roman', Times, serif ;   
+    border-radius: 10px; 
+    text-align: center;
+    padding: 5px;
+}
+
+.Cursos{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Experiência p{
+    background-color: darkgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 10px;  
+    padding: 10px;
+}
+
+.Experiência{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.DadosPessoais{
+    width: 30%;
+    height:auto;
+    background-color:darkcyan;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif; 
+    position: relative;
+    right: 0px; 
+}
+
+.DadosPessoais h1{
+    color: white;
+}
+
+.DadosPessoais h3{
+    color:white
+}
+.DadosPessoais a{
+    color: white ;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.Competências{
+    text-align: center;
+}
+
+.Competências h3{
+    color:white;
+}
+.Competências h4{
+    color:white;
+}
+
+ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;	
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color:cadetblue;
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(56, 56, 56);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+  
+li a.active {
+    color: white;
+    background-color: #04AA6D;
+}
+
+.container{
+    display: inline-flex;
+    width: 100%;
+}
+
+#foto{
+    width: 100px;
+    height: 150px;
+    top: 150px;
+    border-radius: 20px;
+
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.links img{
+    width: 70px;
+    height: 70px;
+   margin-left: 50px;
+
+}
+.links img:hover{
+    background-color:aliceblue;
+    border-radius: 10%;
+}
+
+

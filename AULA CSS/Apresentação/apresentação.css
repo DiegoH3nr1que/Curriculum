@@ -1,0 +1,114 @@
+html,body{
+    background-color: rgb(158, 186, 186);
+}
+ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;	
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color:cadetblue;
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(56, 56, 56);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+  
+li a.active {
+    color: white;
+    background-color: #04AA6D;
+}
+
+.Apresentação{
+    width: 99%;
+    display:inline-flex;
+    gap: 30px;
+    padding-left: 10px;
+}
+.Apresentação img{
+    width: 100px;
+    height: 150px;
+    justify-content:space-around;
+     
+}
+.Apresentação h1{
+    background-color:darkcyan;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: white;
+    text-align: center ;
+}
+.apresentaçao{
+    width: 100%;
+    height: 70%;
+    background-color: darkcyan;
+    margin-top: 40px;
+
+}
+.Sobre{
+    width:auto;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.Sobre p{
+    width: 90%;
+    margin-right: 300px;
+    background-color: darkgray;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.escritas{
+    display: flex;
+    margin-right: 100px;
+}
+.imagens li{
+    padding-top: 50px;
+    padding-left:200px;
+    width: 200px;
+    height: 300px;
+    display: flex;  
+    padding-bottom: 50px;
+}
+.imagens{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    padding-left: 200px;
+    gap: 100px;
+}
+.hobbies{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.santos img{
+    width: 150px;
+    height: 150px;
+}
+.rodape{
+    padding-top: 10px;
+    width: 100%;
+    height:60px;
+    display:flex;
+    background-color:rgb(6, 167, 167);
+}
+.rodape img{
+    width: 50px;
+    height:50px;
+    margin-left: 250px;
+}
+.rodape img:hover{
+    background-color:aliceblue;
+    border-radius: 10%;
+}
